@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>PROJECT TWO</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body onload="fetchStudents()">
+	<div class="container">
+		<h1>student database</h1>
+		<form id="student-form">
+
+			<label for="name">Name:</label>
+			<input type="text" id="studentName" name="name" required>
+
+			<label for="id">Identification Number:</label>
+			<input type="number" id="studentId" name="id" required>
+
+			<label for="grade">Marks:</label>
+			<input type="number" id="studentGrade" name="grade" required>
+
+			<button type="submit" id="add-btn">Add</button>
+			<button type="button" id="viewChartButton">View Chart</button>
+
+		</form>
+
+		<table id="content">
+		</table>
+
+		<canvas id="myChart"></canvas> 
+		<canvas id="myChart1"></canvas>
+		</div>
+
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2023 Student Database. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+</html>
