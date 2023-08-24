@@ -36,7 +36,7 @@ Open your web browser and visit `http://localhost:3001` to access the student gr
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please submit an issue or a pull request on the GitHub repository.
 
 ## License
-MIT License
+`MIT License`
 
 
 
